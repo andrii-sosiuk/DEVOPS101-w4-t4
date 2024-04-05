@@ -62,13 +62,7 @@ For AsciiArtify's specific use case, the choice between minikube, kind, and k3d 
 Given the comparative advantages of speed, efficiency, and ease of integration with CI/CD pipelines, **k3d** is recommended for AsciiArtify's development environment. To demonstrate the utility of k3d, a simple "Hello World" Kubernetes deployment is outlined below.
 
 ### Deploying with K3d
-
-1. **Install K3d**: Begin by installing k3d on your local machine, following the official documentation.
-2. **Create a Cluster**: Use the command `k3d cluster create mycluster` to create a new Kubernetes cluster.
-3. **Deploy "Hello World"**: Deploy a simple application to the cluster. This can be achieved by applying a Kubernetes deployment YAML file that specifies the application configuration.
-4. **Access the Application**: Once deployed, expose the application through a service and access it to verify its functionality.
-
-![Image](.data/demo-k8s.png)
+![Image](.data/demo-k3d.gif)
 
 ## Acknowledge
 The above text was generated using OpenAI's language model, ChatGPT.

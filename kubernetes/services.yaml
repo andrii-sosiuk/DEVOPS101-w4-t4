@@ -5,10 +5,8 @@ metadata:
   labels:
     app.kubernetes.io/name: hello-world
 spec:
-  type: NodePort
   ports:
   - port: 8080
     targetPort: 80
-    # nodePort: 30080 # Optional: Kubernetes assigns a port if this is omitted
   selector:
     app.kubernetes.io/name: hello-world
