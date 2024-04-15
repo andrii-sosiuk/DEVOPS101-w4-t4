@@ -1,4 +1,8 @@
-Deploying Argo CD in a Kubernetes cluster and accessing its interface involves several steps. Below is a simplified overview of the process. Note that specific details might change based on the version of Argo CD, Kubernetes, and the environment (cloud, on-premises) where you're deploying. Always refer to the official Argo CD documentation for the most up-to-date information.
+## Deployment of Argo CD
+Deploying Argo CD in a Kubernetes cluster and accessing its interface involves several steps. 
+Below is a simplified overview of the process. 
+> **Note:_** specific details might change based on the version of Argo CD, Kubernetes, and the environment (cloud, on-premises) where you're deploying. 
+Always refer to the official Argo CD documentation for the most up-to-date information.
 
 ### Step 1: Prepare Your Kubernetes Cluster
 
@@ -83,4 +87,4 @@ Remember to check the official [Argo CD documentation](https://argo-cd.readthedo
 
 
 ## Acknowledge
-The above text was generated using OpenAI's language model, ChatGPT.
+The above text was produced with the assistance of OpenAI's language model, ChatGPT.
